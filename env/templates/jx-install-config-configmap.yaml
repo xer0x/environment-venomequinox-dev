@@ -1,0 +1,34 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQAysXOotIf9ETSj9BTqrs7zANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQzZDcyNTMzNS05MTJlLTQ2NmYtYWZkMy0wZTc5MTQxM2ZmOTIw
+    HhcNMTkwODE0MjIxNDE5WhcNMjQwODEyMjMxNDE5WjAvMS0wKwYDVQQDEyQzZDcy
+    NTMzNS05MTJlLTQ2NmYtYWZkMy0wZTc5MTQxM2ZmOTIwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDdwjC4JizNj2m3Qci3IHt7NoRbmIWPbXEZupC6/bNc
+    C5QTVj0e7eCRelBWvlT2bRD9yXlGsLGLdLVHcbM/5opvTxdvBwjZkFB1uKhYp6aQ
+    sCEpH+HMN3mlRms/dcQJ778MdkiGG3Jt1GQ/8jnl5OeuDgT9virzjbeww/Lj9LqK
+    5frwiU4nnfGjmCHjUq8zzJV3ZUtvl2NO0HYPNsh8WDwtvG32oEA5BgO0Qkri6F44
+    TgaDPnE+wryDETqt9EdRcG3EgElrVh6OhTlnw+4Sl9+8284OJMZsdJy5EJOYSIr3
+    TkrP/bG8TfpznL8UFveJUkCYuF+6iSveuHR9vGq+1gwrAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB2
+    sRq8Miq2lhuxOmd15FnA4jVJ5RseZkYJbSSLTr/36alMso6cMzbMbm84qAZswFxC
+    XwBTT8v5jbf2EL7JpZkZ8XbtTCSGGkmm36R8b7a04cIM3pcSnbZXZun5BZV38VU8
+    9TVT69/nYMglfYXYG4yfO+GuRAR7VI8JfZR9v45R4tTNLOU2BKWiAllgCF879CIH
+    XdPP1lJyUNu6pl24WhzXzwTnjwbUdkq339dERiQi/ghrUmD5QIJ8KhNy0FjZ5/n+
+    PU4n8k/e2YsMGMbRT5H2wU60vj0mM0/9IM/p6GxnCKOkhXyLZmi6R9hTHfcVhYY2
+    MwUYsoS6zyYvj0VOd7US
+    -----END CERTIFICATE-----
+  clusterName: moleisland
+  jx-install-version: 2.0.592
+  kubeProvider: gke
+  projectID: checkfront-dev
+  secretsLocation: vault
+  server: https://35.199.184.39
+  systemVaultName: jx-vault-moleisland
+  zone: us-west1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
